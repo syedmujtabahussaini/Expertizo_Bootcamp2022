@@ -4,32 +4,32 @@ import Post from "./Post";
 function App() {
   return (
     <div class="grid grid-cols-4 gap-0 relative">
-      <div class="bg-blue-600 flex-col col-span-1 relative">
+      <div class="bg-[#0c54e6] flex-col col-span-1 relative">
         <div className="relative">
           <span className="flex justify-center py-3 ">
-            <img className="" src="./logo.png" alt="" width={80} />
+            <img className="" src="./logo.png" alt="" width={80} rounded-full />
           </span>
           <span className="flex justify-center h-60 ">
             <h3 className="text-white font-bold ">my2Cents</h3>
           </span>
         </div>
         <LeftComponent />
-        <div className=" border-2  border-bg-blue-200 flex justify-center bg-blue-50  pt-20  ">
+        <div className=" border-2  border-bg-white flex justify-center bg-white  pt-20  ">
           <LeftPanelButtons />
         </div>
 
-        <div className="    bg-blue-50 py-10 ">
+        <div className="drop-shadow-2xl	   bg-white py-5 pb-5 ">
           <img
             src="./dark.png"
             alt=""
             srcset=""
-            className="w-[50%]  pb-3 mx-auto"
+            className="w-[50%]  pb-2 mx-auto"
           />
           <img
             src="./doctor.png"
             alt=""
             srcset=""
-            className="w-[80%] rounded-t-xl rounded-b-xl mx-auto"
+            className=" drop-shadow-2xl	 w-[80%] rounded-t-xl rounded-b-xl mx-auto"
           />
         </div>
 
@@ -43,7 +43,7 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-white-100 col-span-2">
+      <div className="bg-white col-span-2">
         <div className=" flex bg-white h-20 border-2 border-black-200 align-middle pl-5 ">
           <input
             placeholder="search topic, book,videos,idea,talent,podcast"

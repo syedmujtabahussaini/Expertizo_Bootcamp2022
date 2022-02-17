@@ -1,11 +1,11 @@
 function LeftComponent() {
   return (
-    <div className="border-1  border-black mx-4 rounded-xl top-[140px] bg-white h-60 w-[85%] absolute">
+    <div className=" drop-shadow-2xl border-1  border-black mx-4 rounded-xl top-[140px] bg-white h-60 w-[85%] absolute">
       <img
         src="blockchainlogo.jpg"
         alt="logo"
         width={270}
-        className="rounded-t-xl"
+        className="rounded-t-xl w-[100%]"
       />
       <span className="flex justify-center h-10">
         <img
