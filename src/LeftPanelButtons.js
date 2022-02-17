@@ -1,72 +1,56 @@
 function LeftPanelButtons() {
   return (
     <div className=" w-[85%]">
-      <button className=" shadow-sm hover:bg-[#084fe5] hover:text-white  flex justify-start  py-1  bg-[#f5f8ff] w-full rounded-t-lg rounded-b-lg h-11 text-black  my-3">
+      <button className=" drop-shadow-2xl		 hover:bg-blue-700 text-blue-500 py-1 flex justify-start align-middle bg-blue-200 w-full rounded-t-lg rounded-b-lg h-11 text-white  my-3">
         <img
           src="Home.svg"
           alt=""
           width={20}
-          className=" mx-4 my-auto inline "
+          className=" mx-4 inline my-auto "
         />
-        <span className="  hover:text-white flex my-auto py-2  text-sm font-bold ">
+        <span className="py-2 flex align-middle text-sm font-bold text-black">
           Home
         </span>
       </button>
-
-      <button className="  hover:bg-[#084fe5] hover:text-white py-1 flex justify-start bg-[#f5f8ff] w-full rounded-t-lg rounded-b-lg h-10 text-black  my-2">
-        <img
-          src="book.svg"
-          alt=""
-          width={20}
-          className="mx-4 inline my-auto "
-        />
-        <span className="py-2 flex align-middle text-sm font-bold my-auto">
-          myBook
-        </span>
+      <button className=" drop-shadow-xl hover:bg-blue-700 py-1 flex justify-start bg-blue-200 w-full rounded-t-lg rounded-b-lg h-11 text-black  my-2">
+        <img src="book.svg" alt="" width={20} className="mx-4 inline my-auto" />
+        <span className="py-2 flex align-middle text-sm font-bold">myBook</span>
       </button>
 
-      <button className=" hover:bg-[#084fe5] hover:text-white py-1 flex justify-start bg-[#f5f8ff] w-full rounded-t-lg rounded-b-lg h-10 text-black  my-2">
+      <button className="drop-shadow-xl hover:bg-blue-700 py-1 flex justify-start bg-blue-200 w-full rounded-t-lg rounded-b-lg h-11 text-black  my-2">
         <img src="video.svg" alt="" width={20} className="mx-4 my-auto" />
-        <span className="py-1 flex align-middle text-sm font-bold my-auto">
-          myVid
-        </span>
+        <span className="py-2 flex align-middle text-sm font-bold">myVid</span>
       </button>
 
-      <button className=" hover:bg-[#084fe5] hover:text-white py-1 flex justify-start bg-[#f5f8ff] w-full rounded-t-lg rounded-b-lg h-10 text-black  my-2">
+      <button className="drop-shadow-xl hover:bg-blue-700 py-1 flex justify-start bg-blue-200 w-full rounded-t-lg rounded-b-lg h-11 text-black  my-2">
         <img src="idea.svg" alt="" width={20} className="mx-4 my-auto" />
-        <span className="py-1 flex align-middle text-sm font-bold my-auto">
-          myIdea
-        </span>
+        <span className="py-2 flex align-middle text-sm font-bold">myIdea</span>
       </button>
-      <button className="  hover:bg-[#084fe5] hover:text-white py-1 flex justify-start bg-[#f5f8ff] w-full rounded-t-lg rounded-b-lg h-10 text-black  my-2">
+      <button className=" drop-shadow-xl hover:bg-blue-700 py-1 flex justify-start bg-blue-200 w-full rounded-t-lg rounded-b-lg h-11 text-black  my-2">
         <img src="job.svg" alt="" width={20} className="mx-4 my-auto" />
-        <span className="py-1 flex align-middle text-sm font-bold my-auto">
-          myjob
-        </span>
+        <span className="py-2 flex align-middle text-sm font-bold">myjob</span>
       </button>
-      <button className="  hover:bg-[#084fe5] hover:text-white py-1 flex justify-start bg-[#f5f8ff] w-full rounded-t-lg rounded-b-lg h-10 text-black  my-2">
+      <button className="drop-shadow-xl hover:bg-blue-700 py-1 flex justify-start bg-blue-200 w-full rounded-t-lg rounded-b-lg h-11 text-black  my-2">
         <img src="podcast.svg" alt="" width={20} className="mx-4 my-auto" />
-        <span className="py-1 flex align-middle text-sm font-bold my-auto">
+        <span className="py-2 flex align-middle text-sm font-bold">
           myPodcast
         </span>
       </button>
-      <button className="  hover:bg-[#084fe5] hover:text-white py-1 flex justify-start bg-[#f5f8ff] w-full rounded-t-lg rounded-b-lg h-10 text-black  my-2">
+      <button className=" drop-shadow-xl hover:bg-blue-700 py-1 flex justify-start bg-blue-200 w-full rounded-t-lg rounded-b-lg h-11 text-black  my-2">
         <img src="reuse.svg" alt="" width={20} className="mx-4 my-auto" />
-        <span className="py-1 flex align-middle text-sm font-bold my-auto">
+        <span className="py-2 flex align-middle text-sm font-bold">
           myReuse
         </span>
       </button>
-      <button className="  hover:bg-[#084fe5] hover:text-white py-1 flex justify-start bg-[#f5f8ff] w-full rounded-t-lg rounded-b-lg h-10 text-black  my-2">
+      <button className="drop-shadow-xl hover:bg-blue-700 py-1 flex justify-start bg-blue-200 w-full rounded-t-lg rounded-b-lg h-11 text-black  my-2">
         <img src="food.svg" alt="" width={20} className="mx-4 my-auto" />
-        <span className="py-1 flex align-middle text-sm font-bold my-auto">
+        <span className="py-2 flex align-middle text-sm font-bold">
           mySlowfood
         </span>
       </button>
-      <button className="  hover:bg-[#084fe5] hover:text-white py-1 flex justify-start bg-[#f5f8ff] w-full rounded-t-lg rounded-b-lg h-10 text-black  my-2">
+      <button className=" drop-shadow-xl hover:bg-blue-700 py-1 flex justify-start bg-blue-200 w-full rounded-t-lg rounded-b-lg h-11 text-black  my-2">
         <img src="food.svg" alt="" width={20} className="mx-4 my-auto" />
-        <span className="py-1 flex align-middle text-sm font-bold my-auto">
-          myCM
-        </span>
+        <span className="py-2 flex align-middle text-sm font-bold">myCM</span>
       </button>
     </div>
   );

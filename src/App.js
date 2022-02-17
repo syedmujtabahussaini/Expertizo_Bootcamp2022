@@ -4,39 +4,46 @@ import Post from "./Post";
 function App() {
   return (
     <div class="grid grid-cols-4 gap-0 relative">
-      <div class="bg-[#084fe5] flex-col col-span-1 relative">
+      <div class="bg-[#0c54e6] flex-col col-span-1 relative">
         <div className="relative">
           <span className="flex justify-center py-3 ">
-            <img className="" src="./logo.png" alt="" width={80} />
+            <img className="" src="./logo.png" alt="" width={80} rounded-full />
           </span>
           <span className="flex justify-center h-60 ">
             <h3 className="text-white font-bold ">my2Cents</h3>
           </span>
         </div>
         <LeftComponent />
-        <div className=" border-2  border-bg-blue-500 flex justify-center bg-white  pt-20  ">
+        <div className=" border-2  border-bg-white flex justify-center bg-white  pt-20  ">
           <LeftPanelButtons />
         </div>
 
-        <div className="    bg-white pb-10 ">
-          <img src="./dark.png" alt="" className=" w-[60%]  pb-3 mx-auto" />
+        <div className="drop-shadow-2xl	   bg-white py-5 pb-5 ">
+          <img
+            src="./dark.png"
+            alt=""
+            srcset=""
+            className="w-[50%]  pb-2 mx-auto"
+          />
           <img
             src="./doctor.png"
             alt=""
-            className="shadow-2xl w-[80%] rounded-t-xl rounded-b-xl mx-auto"
+            srcset=""
+            className=" drop-shadow-2xl	 w-[80%] rounded-t-xl rounded-b-xl mx-auto"
           />
         </div>
 
-        <div className=" shadow-2xl flex justify-center  bg-white  py-5">
+        <div className="flex justify-center  bg-blue-50  py-5">
           <img
             src="./pepsi.png"
             alt=""
-            className=" shadow-2xl w-[80%] rounded-t-xl rounded-b-xl"
+            srcset=""
+            className="w-[80%] rounded-t-xl rounded-b-xl"
           />
         </div>
       </div>
 
-      <div className="bg-white-100 col-span-2">
+      <div className="bg-white col-span-2">
         <div className=" flex bg-white h-20 border-2 border-black-200 align-middle pl-5 ">
           <input
             placeholder="search topic, book,videos,idea,talent,podcast"
@@ -48,45 +55,10 @@ function App() {
           alt=""
           className="w-[95%] mx-auto pt-5  rounded-b-xl rounded-t-xl"
         />
-        {/* CRYPTO WINNER  ====================================*/}
-        <div className=" bg-[#084fe5] rounded-b-xl rounded-t-xl w-[95%] mx-auto h-[5%] pt-5 mt-5 text-white pl-10 pr-5 ">
-          <div className="flex justify-between">
-            <div className=" text-xl ">
-              <img src="folder.svg" width={25} className="inline " />
-              <span className="ml-3">Crypto Winter's</span>
-            </div>
-            <div>
-              <img src="ellipsis-h.svg" width={30} />
-            </div>
-          </div>
-
-          <div className="text-sm pt-3  ">
-            #Bitcoin{" "}
-            <span className="bg-[#f5f8ff] text-gray-500 text-xs rounded-r-lg rounded-l-lg pl-1 pr-1">
-              1253Posts
-            </span>
-          </div>
+        <div className="bg-blue-700 rounded-b-xl rounded-t-xl w-[95%] mx-auto h-[5%] pt-10 mt-5 text-white  text-lg">
+          Crypto Winners
         </div>
-
-        {/* ========================================================== */}
-
-        <div className="  flex justify-between bg-[#f5f8ff] rounded-b-xl rounded-t-xl w-[95%] mx-auto   mt-5 h-20">
-          <div className="my-auto   text-3xl font-bold text-gray-400 xy-auto">
-            <span className="ml-4">Posts</span>
-          </div>
-
-          <div className="mr-4 self-center h bg-[#084fe5] text-gray-200 font-lightbold text-lg w-40 h-9 rounded-l-md rounded-r-md">
-            <span className="pt-4 pl-2">
-              Latest
-              <img
-                src="arrow-circle-down.svg"
-                className="w-7  inline ml-10 "
-                pb-5
-              />
-            </span>
-          </div>
-        </div>
-
+        <div className="bg-blue-200 rounded-b-xl rounded-t-xl w-[95%] mx-auto h-[3%] pt-10 mt-5 text-white  text-lg"></div>
         <Post />
         <Post />
         <Post />
@@ -95,13 +67,11 @@ function App() {
           1 &emsp;2&emsp; 3&emsp; <span className="bg-blue-200">4</span>&emsp;
           5&emsp; ...&emsp; 22
         </div>
-        <div className="  w-[90%] bg-blue-700 flex justify-center mx-auto  rounded-t-2xl rounded-b-2xl h-[120px]">
-          <span className="  self-center h-11 w-[90%] ">
-            <input
-              placeholder="Monitize a topic"
-              className="rounded-t-2xl rounded-b-2xl  h-11 w-[100%]"
-            />
-          </span>
+        <div className="w-[85%] bg-blue-700 flex justify-center mx-auto h-20 rounded-t-xl rounded-b-xl pt-10">
+          <input
+            placeholder="Monitize a topic"
+            className="rounded-t-xl rounded-b-xl  w-[90%] "
+          />
         </div>
       </div>
       <div class="bg-green-100 col-span-1 mt-20">
